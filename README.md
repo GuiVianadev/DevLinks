@@ -13,7 +13,7 @@ Neste desafio da Rocketseat foi desenvolvido uma página simples com uma lista d
 ## 📷 Demostração
 Apresentação da tela do aplicativo.
 <div align="center">
-  <img src="https://i.ibb.co/BzN9RFc/social-tree.png" alt="social-tree" border="0">
+  <img src="https://ibb.co/nL0Yk9z" alt="social-tree" border="0">
 </div>
 
 ## ⚙️ Instalação
