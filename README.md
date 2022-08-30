@@ -19,7 +19,7 @@ Apresentação da tela do aplicativo.
 ## ⚙️ Instalação
 Clone o repositório.
 ~~~
-git clone https://github.com/vian4dev/social-tree.git
+git clone https://github.com/Guivianadev/social-tree.git
 ~~~
 Acesse o diretório do projeto.
 ~~~
@@ -29,7 +29,7 @@ Execute o _index.html_ no seu navegador.
 
 ---
 <div align="center"> 
- <p>Desenvolvido por - <a href="https://github.com/vian4dev">Gabriel Viana</a> 🤖</p>
+ <p>Desenvolvido por - <a href="https://github.com/GuiVianadev">Guilherme Viana</a> 🤖</p>
  
- <a href="https://www.linkedin.com/in/vianadev" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+ <a href="https://www.linkedin.com/in/guilhermevianadev" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
 </div>
