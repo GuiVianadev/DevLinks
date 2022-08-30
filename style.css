@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Poppins:wght@100&display=swap');
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+  }
+
+  *{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    background-color: var(--body-bg-color);
+    color: var(--purple);
+    font-family:'Poppins', sans-serif;
+    font-weight: 600;
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+  li {
+    display: flex;
+    margin-bottom: 10px;
+    text-decoration: none;
+    justify-content: center;
+    border: 1px solid #BB99DD;
+    line-height: 2;
+    align-items: center;
+    gap: .4rem;
+    width: 26rem;
+    height: 3rem;
+    color: var(--purple);
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--purple);
+  }
+
+  li:hover {
+    background-color: rgba(187, 153, 221, 0.4);
+    transition: 0.5s ease;
+  }
+
+ .container-avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35%;
+  }
+  
+  .avatar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:50%;
+    border: 8px solid #000000;
+    position: relative;
+  }
+
+  .container-avatar .avatar-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+  }
+  .border-icon {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #BB99DD;
+  }
+
+  .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+  }
+
+  .container-links {
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+
+  .container-icons {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    align-items: center;
+    margin-top: 10%;
+  }
+
+.icon-animation:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2); 
+    transform: scale(1.2); 
+  }
