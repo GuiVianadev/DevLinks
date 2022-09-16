@@ -108,7 +108,97 @@
   }
 
 .icon-animation:hover {
-    -ms-transform: scale(1.2);
-    -webkit-transform: scale(1.2); 
-    transform: scale(1.2); 
+   transform: scale(1.2); 
+  }
+
+  .icon-animation {
+    transition: transform .5s;
+  }
+
+
+  /* animation */
+  
+  header {
+    animation: opacityProfile .7s .6s backwards;
+  }
+ div h3 {
+    animation: textavatar 1s .8s backwards;
+  }
+  
+  .icon-animation {
+    animation: bottom 1s .8s backwards;
+  }
+
+  .icon-animation {
+    animation-delay: 2s;
+  }
+
+  ul li {
+    animation: top 1s 1.6s backwards
+  }
+
+  ul li:nth-child(1) {
+    animation-delay: 1s;
+  }
+  ul li:nth-child(2) {
+    animation-delay: 1.2s;
+  }
+  ul li:nth-child(3) {
+    animation-delay: 1.4s;
+  }
+  ul li:nth-child(4) {
+    animation-delay: 1.6s;
+  }
+
+  @keyframes opacityProfile {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes textavatar {
+    from {
+      transform: translateY(-30px);
+      opacity: 0;
+
+    }
+
+    to {
+      
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes top {
+    from {
+      transform: translateY(-30px);
+      opacity: 0;
+
+    }
+
+    to {
+      
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+
+  @keyframes bottom {
+    from {
+      transform: translateY(30px);
+      opacity: 0;
+
+    }
+
+    to {
+      
+      transform: translateY(0);
+      opacity: 1;
+    }
   }
